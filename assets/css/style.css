@@ -82,6 +82,34 @@ section {
     margin-top: 100px;
 }
 
+/* styling about me */
+
+.aboutme {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutme h2 {
+    margin: 0;
+    padding:60px;
+    font-size: 60px;
+    border-right: 5px solid var(--primary-color);
+    text-align: right;
+    color:var(--primary-color);
+    display: flex;
+}
+.aboutme .information {
+    padding: 10px;
+}
+
+.aboutme p {
+    color: var(--primary-color);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+
 
 
 
