@@ -61,6 +61,28 @@ header nav ul li a {
    padding-left: 15px; 
 }
 
+/* hero section styling */
+
+section {
+    padding: 50px;
+}
+.hero {
+    background-image: url("../images/original.png");
+    background-position: center;
+}
+
+.hero h2 {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--secondary-color);
+    font-size: 40px;
+    color:var(--tertiary-color);
+    width: 400px;
+    margin-left:850px;
+    margin-top: 100px;
+}
+
+
 
 
 
