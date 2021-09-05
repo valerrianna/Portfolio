@@ -153,8 +153,8 @@ section {
 .art {
     background-image: url("../images/sailor\ soldier\ merge.png");
     padding: 200px 200px 30px 0px;
-    background-size: 700px;
-    background-position: right;
+    background-size: 500px;
+    background-position: center;
     margin: 20px;
     border: 5px solid var(--secondary-color);
 }
@@ -162,8 +162,8 @@ section {
 .card {
     background-image: url("../images/wed.png");
     padding: 200px 200px 30px 0px;
-    background-size: 700px;
-    background-position: right;
+    background-size: 470px;
+    background-position: center;
     margin: 20px;
     border: 5px solid var(--secondary-color);
 }
@@ -188,6 +188,46 @@ section {
     font-size: 20px;
     align-items: flex-start;  
 }
+
+/*styling footer*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer h2 {
+    margin: 0;
+    padding: 0 55px 0 60px;
+    font-size: 60px;
+    border-right: 5px solid var(--primary-color);
+    text-align: right;
+    color:var(--primary-color);
+    display: flex;
+}
+
+footer nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+footer nav ul li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+footer nav ul li a {
+    color: var(--primary-color);
+   text-decoration: none;
+   border-bottom: 5px solid var(--primary-color);
+   padding-bottom: 5px;
+   padding-right: 15px;
+   padding-left: 15px; 
+}
+
+
+
 
 
 
