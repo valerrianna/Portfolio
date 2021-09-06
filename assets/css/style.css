@@ -227,9 +227,9 @@ section {
 
 footer {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
 }
+
 footer h2 {
     margin: 0;
     padding: 0 55px 0 60px;
@@ -238,6 +238,10 @@ footer h2 {
     text-align: right;
     color:var(--primary-color);
     display: flex;
+}
+
+footer nav {
+    padding: 20px;
 }
 
 footer nav ul {
