@@ -260,16 +260,235 @@ footer nav ul li a {
    padding-left: 15px; 
 }
 
+@media screen and (max-width:980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
 
+    .hero h2 {
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--secondary-color);
+        font-size: 40px;
+        color:var(--tertiary-color);
+        margin-left:700px;
+        margin-top: 100px;
+    }
 
+    .aboutme {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .aboutme h2 {
+        margin: 0;
+        padding:60px;
+        font-size: 60px;
+        border-bottom: 5px solid var(--primary-color);
+        border-right: 0px;
+        text-align: right;
+        color:var(--primary-color);
+        display: flex;
+    }
 
+    .work {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .work h2 {
+        margin: 0;
+        padding:60px;
+        font-size: 60px;
+        border-bottom: 5px solid var(--primary-color);
+        border-right: 0px;
+        text-align: right;
+        color:var(--primary-color);
+        display: flex;
+    }
 
+    footer {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
 
+    footer h2 {
+        margin: 0;
+        padding:60px;
+        font-size: 40px;
+        text-align: right;
+        color:var(--primary-color);    
+    }
 
+    footer nav ul {
+        font-size: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
+}
 
+@media screen and (max-width: 768px) {
 
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+      }
+  
+      .hero h2 {
+          display: flex;
+          justify-content: space-around;
+          background-color: var(--secondary-color);
+          font-size: 40px;
+          color:var(--tertiary-color);
+          margin-left:400px;
+          margin-top: 100px;
+      }
+  
+      .aboutme {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .aboutme h2 {
+          margin: 0;
+          padding:60px;
+          font-size: 60px;
+          border-bottom: 5px solid var(--primary-color);
+          border-right: 0px;
+          text-align: right;
+          color:var(--primary-color);
+      }
+  
+      .work {
+          display: flex;
+          flex-direction: column;
+          
+      }
+      
+      .work h2 {
+          margin: 0;
+          padding:60px;
+          font-size: 60px;
+          border-bottom: 5px solid var(--primary-color);
+          border-right: 0px;
+          text-align: right;
+          color:var(--primary-color);
+      }
 
+      .projects1 {
+        display: flex;
+        flex-direction: column;
+    }
+  
+      footer {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+      }
+  
+      footer h2 {
+        margin: 0;
+        padding:60px;
+        font-size: 60px;
+        border-bottom: 5px solid var(--primary-color);
+        border-right: 0px;
+        text-align: right;
+        color:var(--primary-color);
+      }
+  
+      footer nav ul {
+          font-size: 10px;
+          display: flex;
+          flex-wrap: wrap;
+          margin: 50px;
+          flex-direction: column;
+      }
 
+}
 
+@media screen and (max-width: 575px) {
 
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+      }
+  
+      .hero h2 {
+          display: flex;
+          justify-content: space-around;
+          background-color: var(--secondary-color);
+          font-size: 40px;
+          color:var(--tertiary-color);
+          margin-left:400px;
+          margin-top: 100px;
+      }
+  
+      .aboutme {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .aboutme h2 {
+          margin: 0;
+          padding:60px;
+          font-size: 60px;
+          border-bottom: 5px solid var(--primary-color);
+          border-right: 0px;
+          text-align: right;
+          color:var(--primary-color);
+      }
+  
+      .work {
+          display: flex;
+          flex-direction: column;
+          
+      }
+      
+      .work h2 {
+          margin: 0;
+          padding:60px;
+          font-size: 60px;
+          border-bottom: 5px solid var(--primary-color);
+          border-right: 0px;
+          text-align: right;
+          color:var(--primary-color);
+      }
+
+      .projects1 {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      footer {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+      }
+  
+      footer h2 {
+        margin: 0;
+        padding:60px;
+        font-size: 60px;
+        border-bottom: 5px solid var(--primary-color);
+        border-right: 0px;
+        text-align: right;
+        color:var(--primary-color);
+      }
+  
+      footer nav ul {
+          font-size: 10px;
+          display: flex;
+          flex-wrap: wrap;
+          margin: 50px;
+          flex-direction: column;
+      }
+
+}
