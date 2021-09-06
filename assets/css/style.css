@@ -73,12 +73,11 @@ section {
 
 .hero h2 {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     background-color: var(--secondary-color);
     font-size: 40px;
     color:var(--tertiary-color);
-    width: 400px;
-    margin-left:850px;
+    margin-left:1200px;
     margin-top: 100px;
 }
 
@@ -108,12 +107,18 @@ section {
     line-height: 1.5;
 }
 
+.aboutme img {
+    margin: 10px;
+    width: 15%;
+}
+
 /*styling work*/
 
 .work {
     display: flex;
     justify-content: flex-start;
     align-items: stretch;
+    
 }
 
 .work h2 {
@@ -124,6 +129,10 @@ section {
     text-align: right;
     color:var(--primary-color);
     display: flex;
+}
+
+.projects a {
+    text-decoration: none;
 }
 
 .projects1 {
@@ -139,6 +148,11 @@ section {
     padding: 400px 400px 30px 0px;
     margin: 20px;
     border: 5px solid var(--secondary-color);
+    filter: brightness(75%);
+}
+
+.run-buddy:hover {
+    filter: brightness(100%)
 }
 
 .horiseon {
@@ -148,6 +162,11 @@ section {
     background-position: right;
     margin: 20px;
     border: 5px solid var(--secondary-color);
+    filter: brightness(75%);
+}
+
+.horiseon:hover {
+    filter:brightness(100%)
 }
 
 .art {
@@ -157,6 +176,11 @@ section {
     background-position: center;
     margin: 20px;
     border: 5px solid var(--secondary-color);
+    filter: brightness(75%);
+}
+
+.art:hover {
+    filter: brightness(100%);
 }
 
 .card {
@@ -166,6 +190,11 @@ section {
     background-position: center;
     margin: 20px;
     border: 5px solid var(--secondary-color);
+    filter: brightness(75%);
+}
+
+.card:hover {
+    filter: brightness(100%);
 }
 
 .logo {
@@ -175,6 +204,11 @@ section {
     background-position: center;
     margin: 20px;
     border: 5px solid var(--secondary-color);
+    filter: brightness(75%);
+}
+
+.logo:hover {
+    filter: brightness(100%);
 }
 
 .project-label {
